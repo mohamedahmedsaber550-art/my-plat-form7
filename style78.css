@@ -1,0 +1,38 @@
+/* ألوان وتنسيق الصفحة الرئيسية */
+body.home {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb); /* خلفية متدرجة */
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+/* الهيدر */
+header {
+  background: #004aad;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+/* القوائم */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* البطاقات */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
